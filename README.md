@@ -6,3 +6,4 @@ be played on mobile devices. please feel free to look around!
   - HTML
   - CSS
   - Firbase(hosting)
+LINK: https://simple-fighting-game.web.app
