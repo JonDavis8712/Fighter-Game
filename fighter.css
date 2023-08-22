@@ -1,0 +1,213 @@
+.cover {
+  opacity: 0.8;
+  background-color: #000000a1;
+  position: absolute;
+  width: 2000px;
+  height: 2000px;
+  top: 0px;
+  left: 0px;
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+  z-index: 1;
+}
+
+.player-card {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  height: 800px;
+}
+
+.play {
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  box-shadow: rgb(0, 255, 179) 5px 5px 15px;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 5.25rem;
+  color: rgb(0, 255, 179);
+  text-shadow: #eeff00 3px 3px 5px;
+  width: 225px;
+  height: 150px;
+  border-radius: 25px;
+  z-index: 1000;
+  cursor: pointer;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.result {
+  position: absolute;
+  text-align: center;
+  display: none;
+  margin-top: 100px;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 5rem;
+  color: rgb(255, 255, 255);
+  text-shadow: #000000 5px 5px 5px;
+  width: 225px;
+  height: 150px;
+  border-radius: 25px;
+  cursor: pointer;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.play:hover {
+  border: 5px solid #00ff22;
+  color: #ffffff;
+  box-shadow: none;
+  background: #fff;
+}
+
+.reset {
+  z-index: 1;
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  right: 25%;
+  color: #ffffff;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 9rem;
+  text-shadow: #00ff4c 3px 3px 15px;
+  cursor: pointer;
+  transition: 0.2seconds ease-in-out;
+  display: none;
+  border-radius: 20px;
+}
+
+.reset:hover {
+  color: #00000050;
+  text-shadow: #00ff4c 3px 3px 15px;
+  transform: scale(1.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: -100px;
+}
+
+.playerNames {
+  font-family: "Chakra Petch", sans-serif;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: -90px;
+  margin-top: 90px;
+}
+
+.fighter2 {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  z-index: -1;
+}
+
+.player2-box {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+.p2btns {
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: -40px;
+}
+
+.atk2 {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 2.5rem;
+  border: 5px solid black;
+  border-radius: 25px;
+  background-color: rgba(255, 0, 0, 0.548);
+}
+
+.heal2 {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 2.5rem;
+  border: 5px solid black;
+  border-radius: 25px;
+  margin-top: -45px;
+  margin-bottom: -10px;
+  padding: 0 15px 0;
+  background-color: #61e773a4;
+}
+
+.player1-box {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+.player1 {
+  font-family: "Chakra Petch", sans-serif;
+  text-align: center;
+  font-size: 32px;
+  margin-right: 90px;
+  text-shadow: #0026ff 3px 3px 10px;
+}
+
+.player2 {
+  font-family: "Chakra Petch", sans-serif;
+  text-align: center;
+  font-size: 32px;
+  margin-left: 90px;
+  text-shadow: #ff0000 3px 3px 5px;
+}
+
+.p1btns {
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: -40px;
+}
+
+.atk1 {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 2.5rem;
+  border: 5px solid black;
+  border-radius: 25px;
+  background-color: rgba(255, 0, 0, 0.548);
+}
+
+.heal1 {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 2.5rem;
+  border: 5px solid black;
+  border-radius: 25px;
+  margin-top: -45px;
+  margin-bottom: -10px;
+  padding: 0 15px 0;
+  background-color: #61e773a4;
+}
+
+.p1health {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 4rem;
+  padding: 0;
+  margin: 0;
+  color: #00ff22;
+  text-shadow: #000000 3px 3px 15px;
+}
+
+.p2health {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 4rem;
+  padding: 0;
+  margin: 0;
+  color: #00ff22;
+  text-shadow: #000000 3px 3px 15px;
+}
