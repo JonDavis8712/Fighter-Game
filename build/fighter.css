@@ -2,8 +2,8 @@
   opacity: 0.8;
   background-color: #000000a1;
   position: absolute;
-  width: 2000px;
-  height: 2000px;
+  width: 100vw;
+  height: 100vh;
   top: 0px;
   left: 0px;
   -webkit-backdrop-filter: blur(3px);
