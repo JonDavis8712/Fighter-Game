@@ -7,7 +7,6 @@ const p2health = document.querySelector(".p2health");
 const playbtn = document.querySelector(".play");
 const resetBtn = document.querySelector(".reset");
 const resultDiv = document.querySelector(".result");
-const gameCover = document.querySelector(".cover");
 
 const updateGame = (p1, p2, gameState) => {
   p1health.innerText = p1.health;
@@ -57,7 +56,6 @@ class Game {
       playbtn.style.textShadow = "none";
       playbtn.style.color = "grey";
       playbtn.style.textDecoration = "line-through";
-      gameCover.style.display = "none";
       this.isOver = false;
     });
   }
